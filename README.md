@@ -1,36 +1,95 @@
-# Nitin Mishra | Personal Brand OS
+# Nitin Mishra: Automation Systems Portfolio & Ingestion Interface
 
-> **Automation Systems Specialist** helping B2B service businesses streamline operations, reduce manual coordination, and build reliable operational processes.
+> **Hand-Coded B2B Systems Showcase & Live Webhook Ingestion Architecture**
 
-Live Site: [https://nitin-mishra.netlify.app/](https://nitin-mishra.netlify.app/)
+A high-performance, single-author portfolio and operational testing environment built by **Nitin Mishra**. Designed to showcase practical automation frameworks, CRM pipeline architectures, and end-to-end data intake workflows for growing B2B service businesses.
 
-## Overview
-This repository contains the front-end architecture for the Personal Brand OS and Portfolio of Nitin Mishra. It serves as a high-authority lead generation mechanism, showcasing in-depth operational case studies and system teardowns.
-
-## Tech Stack
-*   **HTML5:** Semantic, accessible markup.
-*   **CSS3:** Vanilla CSS leveraging CSS Variables, modern Grid/Flexbox, and custom Glassmorphic UI systems. Zero framework bloat. Features Ultra-Premium spacing, custom operational capsule badges, and high-fidelity layout structuring.
-*   **JavaScript (Vanilla):** Zero-dependency interaction engine handling magnetic buttons, smooth reveal states, mobile navigation, and inline modal architecture.
-*   **Integrations:** Direct cal.com embedding for frictionless booking.
-*   **Hosting / CI-CD:** Netlify
-
-## Flagship Systems (Case Studies)
-1. **Lead Capture to Booking System** (GoHighLevel, Multi-Channel Sync)
-2. **Lead Intake & Duplicate Verification** (Make.com, Webhook Logic, Fail-Open CRM)
-3. **AI Customer Journey Recovery System** (AI Triage, State Audit, Human Escalation, 6-Stage Make.com Modular Architecture)
-
-\n## Development Environments (Sandbox System)\nThis repository employs a strict dual-environment setup:\n*   **Working Files (`-working.html`)**: Used strictly for development, design iterations, and testing new components.\n*   **Main Files (`.html`)**: Live production files. Working files are only synced into Main after complete QA verification to prevent live breakages.\n\n## Local Development
-Since this project uses absolute/relative vanilla routing and no build steps, you can serve it locally using any standard static server.
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node (http-server)
-npx http-server -p 8000
-```
-
-## Deployment
-This project is connected to Netlify. Pushing to the main branch will automatically trigger a deployment. Ensure that all routing is properly configured in the _redirects file.
+Live Deployment: [https://nitinsystems.github.io/nitinmishra/](https://nitinsystems.github.io/nitinmishra/)
 
 ---
-*Architected and maintained by Nitin Mishra.*
+
+## 1. Project Purpose & Live Architecture Role
+
+This repository serves as both an interactive client showcase and the active client-facing intake environment for the **Nitin Systems Lead Ingestion Pipeline**:
+
+* **Live Testing Interface:** The forms and intake buttons connect directly to live webhook endpoints, validating payloads and deduplicating records in real time.
+* **Fault-Tolerant Reliability:** Features asynchronous duplicate verification with automatic timeout fallbacks, guaranteeing zero lost leads if a secondary API experiences latency.
+* **Architecture Reference:** Demonstrates the foundational design system and system flow visualizations that preceded the active [Nitin Systems](https://nitinsystems.com) agency build.
+
+---
+
+## 2. Engineering Standard: Pure CSS & Zero-Bloat Frontend
+
+Following the minimalist engineering principles of Apple, Stripe, and Linear:
+
+* **Zero Heavy Animation Libraries:** Completely free of bloated JavaScript animation engines (GSAP, Framer Motion, heavy canvas scripts) that cause layout recalculation and frame drops on mobile.
+* **Hardware-Accelerated CSS Motion:** All card elevations, button states, and entrance reveals are engineered using pure CSS GPU compositor layers (`transform` and `opacity`), locking performance at 60fps.
+* **Lightweight Semantic HTML5:** Clean, accessible markup (100/100 Google Lighthouse baseline) with sub-second page loads.
+* **Deterministic Webhook Handshake:** Built with clean form bindings and background `keepalive` transmissions that never drop payloads mid-submission.
+
+---
+
+## 3. Flagship Systems Showcased in This Build
+
+### 01. Lead Capture to Booking System
+Direct client implementation connecting website intake forms, automated email confirmations, and 2-way Google Calendar scheduling with instant team alerts.
+* **Stack:** GoHighLevel, Gmail, Google Calendar
+
+### 02. Lead Intake & Duplicate Verification System
+The core architecture connected directly to this repository. Evaluates incoming webhook payloads against Airtable records to update existing contacts before passing sanitized data into HubSpot CRM with zero duplicate deals.
+* **Stack:** Custom Webhooks, Make.com, Airtable, HubSpot CRM
+
+### 03. AI Customer Journey Recovery System
+A 7-scenario state-machine workflow monitoring deal stagnation, routing lifecycle triage actions, and triggering recovery notifications.
+* **Stack:** Make.com, Make AI Agent, Airtable
+
+---
+
+## 4. Repository Node Structure
+
+A modular, multi-page B2B architecture with strict separation between live production files and development environments:
+
+```
+├── index.html                                    # Flagship Conversion Hub & Lead Intake
+├── systems-library.html                          # Architectural Blueprint & Systems Catalog
+├── lead-capture-to-booking.html                  # Deep Technical Case Study 01
+├── lead-intake-duplicate-verification.html       # Deep Technical Case Study 02
+├── ai-customer-journey-operations-recovery.html  # Deep Technical Case Study 03
+├── about.html                                    # Engineering Philosophy & Founder Background
+├── thank-you.html                                # Dynamic Post-Conversion Routing
+├── privacy.html & terms.html                     # Enterprise Compliance & Legal Foundations
+├── style.css                                     # Master CSS Custom Property Design Tokens
+└── script.js                                     # Event Listeners, Cal Embed & Webhook Engine
+```
+
+---
+
+## 5. Tech Stack & Implementation Details
+
+* **Frontend Code:** Lightweight Semantic HTML5, Modular CSS3 Tokens, Vanilla JavaScript (Zero runtime frameworks).
+* **Booking Interface:** Headless Cal.com modal wrapper (Lazy-loaded iframe with dark-mode parameter injection).
+* **Automation Backend:** Make.com, Webhook Endpoints, REST APIs.
+* **Data & CRM Infrastructure:** Airtable Relational Databases, GoHighLevel, HubSpot CRM.
+* **AI Logic:** Make AI Agent, Google AI Studio (Gemini Pro API).
+
+---
+
+## 6. Ecosystem & Related Builds
+
+* **Primary Agency Build:** [Nitin Systems Repository](https://github.com/NitinSystems/nitinsystems)
+* **Official Website:** [https://nitinsystems.com](https://nitinsystems.com)
+* **Agency Live Showcase:** [https://nitinsystems.github.io/nitinsystems/](https://nitinsystems.github.io/nitinsystems/)
+
+---
+
+## 7. Contact & Verification
+
+* **Founder & Automation Systems Specialist:** Nitin Mishra
+* **Operational Base:** Delhi NCR, India · Operating on IST (UTC+5:30)
+* **Email:** [NitinSystems@outlook.com](mailto:NitinSystems@outlook.com)
+* **LinkedIn:** [linkedin.com/in/nitinmishra-me](https://www.linkedin.com/in/nitinmishra-me/)
+* **GitHub Profile:** [github.com/NitinSystems](https://github.com/NitinSystems)
+
+---
+
+© 2026 Nitin Systems. Built by Nitin Mishra.
