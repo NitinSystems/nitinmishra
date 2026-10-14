@@ -1,5 +1,7 @@
 # Nitin Mishra: Automation Systems Portfolio & Ingestion Interface
 
+> **Operational Notice:** This repository serves as the live interactive testing sandbox and foundational architecture prototype preceding the formal production agency deployment at Nitin Systems (https://nitinsystems.com).
+
 > **Hand-Coded B2B Systems Showcase & Live Webhook Ingestion Architecture**
 
 A high-performance, single-author portfolio and operational testing environment built by **Nitin Mishra**. Designed to showcase practical automation frameworks, CRM pipeline architectures, and end-to-end data intake workflows for growing B2B service businesses.
@@ -52,9 +54,9 @@ A modular, multi-page B2B architecture with strict separation between live produ
 ```
 ├── index.html                                    # Flagship Conversion Hub & Lead Intake
 ├── systems-library.html                          # Architectural Blueprint & Systems Catalog
-├── lead-capture-to-booking.html                  # Deep Technical Case Study 01
-├── lead-intake-duplicate-verification.html       # Deep Technical Case Study 02
-├── ai-customer-journey-operations-recovery.html  # Deep Technical Case Study 03
+├── system-lead-capture.html                      # Deep Technical Case Study 01
+├── system-lead-intake.html                       # Deep Technical Case Study 02
+├── system-ai-journey.html                        # Deep Technical Case Study 03
 ├── about.html                                    # Engineering Philosophy & Founder Background
 ├── thank-you.html                                # Dynamic Post-Conversion Routing
 ├── privacy.html & terms.html                     # Enterprise Compliance & Legal Foundations
