@@ -41,7 +41,7 @@ Direct client implementation connecting website intake forms, automated email co
 The core architecture connected directly to this repository. Evaluates incoming webhook payloads against Airtable records to update existing contacts before passing sanitized data into HubSpot CRM with zero duplicate deals.
 * **Stack:** Custom Webhooks, Make.com, Airtable, HubSpot CRM
 
-### 03. AI Customer Journey Recovery System
+### 03. AI Customer Journey Operations & Recovery System
 A 7-scenario state-machine workflow monitoring deal stagnation, routing lifecycle triage actions, and triggering recovery notifications.
 * **Stack:** Make.com, Make AI Agent, Airtable
 
