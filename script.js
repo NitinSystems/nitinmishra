@@ -410,7 +410,7 @@ function initIntakeForm() {
     
     // Configurable Make.com webhook URLs
     const webhookUrl = 'https://hook.eu1.make.com/cnp55pepi6y3ttnxvwwerisyukf8n1ft';
-    const checkEmailUrl = 'https://hook.eu1.make.com/m7rmq58ynkjl9pwic5w8edv4ya39f5dt';
+    const checkEmailUrl = 'https://hook.eu1.make.com/xiux0l88y3tiys51994xbe2pd8k3xun2';
     const DUPLICATE_THRESHOLD_HOURS = 24;
 
     // Modal elements
